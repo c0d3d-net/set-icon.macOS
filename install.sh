@@ -26,7 +26,7 @@ cd ~/Downloads/
     then
 	echo
 	echo "Uninstalling 'set-icon'"
-	sudo rm /usr/local/bin/set-ico
+	sudo rm /usr/local/bin/set-icon
 	echo "Done! Goodbye!"
     fi
     if [[ $char == "x" ]]
