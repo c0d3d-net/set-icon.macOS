@@ -6,6 +6,32 @@ set-icon lets you add or remove icons from files or folders.
 - Open a terminal
 - ./install.sh to install
 
+## Usage
+
+*macOS modification created on Feb 2019 by c0d3d.net*
+
+*Originally created on July 2010 by Hank McShane*
+
+*version 1.0 for macOS - requires macOS 10.12 or higher*
+
+Use this to add an image file as the custom icon to a file or folder.
+You can also remove the custom icon from a file/folder.
+
+Command: `set-icon`
+* `-h` show the help text
+* `-image <imagePath>` path to the image to be used for the icon
+* `-file <filePath>` path to the file to set the icon
+* `-removeCustomIcon` removes the custom icon for the file
+
+Examples:
+This sets the image as the custom icon for the file:
+	`set-icon -image /path/to/image -file /path/to/file`
+
+This removes the custom icon from the file:
+	`set-icon -removeCustomIcon -file /path/to/file`
+
+**STILL WORKING ON VIEWING THE BINARY DATA**
+
 ### Version Notes
 set-icon.macOS version 1.0 for macOS
 - requires macOS 10.12 or higher
