@@ -1,0 +1,25 @@
+ __PAGEZERO __stub_helper __objc_methname __unwind_info __nl_symbol_ptr __la_symbol_ptr __cfstring __objc_imageinfo__DATA __objc_selrefs __objc_classrefs__DATA __LINKEDIT /usr/lib/dyld
+ /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+ /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit /usr/lib/libobjc.A.dylib /usr/lib/libSystem.B.dylib /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation‰å AWAVAUATSPH
+ alloc init processInfo arguments arrayWithArray: count objectAtIndex: isEqualToString: containsObject: standardUserDefaults stringForKey: defaultManager fileExistsAtPath: stringWithFormat: UTF8String sharedWorkspace setIcon:forFile:options: initWithContentsOfFile: release drain -removeCustomIcon file Error: the file could not be found: %@
+ image Error: the image could not be found: %@
+ macOS modification created on Feb 2019 by c0d3d.net
+ Originally created on July 2010 by Hank McShane
+ version 1.0 for macOS
+ requires macOS 10.12 or higher
+ Use this to add an image file as the custom icon to a file or folder.
+ You can also remove the custom icon from a file/folder.
+ Usage: set-icon
+ [-h] show the help text
+ [-image <imagePath>] path to the image to be used for the icon
+ [-file <filePath>] path to the file to set the icon
+ [-removeCustomIcon] removes the custom icon for the file
+ Examples:
+ This sets the image as the custom icon for the file:
+ set-icon -image /path/to/image -file /path/to/file
+ This removes the custom icon from the file:
+ set-icon -removeCustomIcon -file /path/to/file
+ @_OBJC_CLASS_$_NSAutoreleasePool @_OBJC_CLASS_$_NSFileManager @_OBJC_CLASS_$_NSProcessInfo @_OBJC_CLASS_$_NSString @_OBJC_CLASS_$_NSImage @_OBJC_CLASS_$_NSWorkspace @_objc_msgSend @dyld_stub_binder @_OBJC_CLASS_$_NSArray @_OBJC_CLASS_$_NSUserDefaults @___CFConstantStringClassReference __mh_execute_header
+ __mh_execute_header _OBJC_CLASS_$_NSArray _OBJC_CLASS_$_NSAutoreleasePool _OBJC_CLASS_$_NSFileManager _OBJC_CLASS_$_NSImage _OBJC_CLASS_$_NSProcessInfo _OBJC_CLASS_$_NSString _OBJC_CLASS_$_NSUserDefaults _OBJC_CLASS_$_NSWorkspace ___CFConstantStringClassReference _fputs _fwrite _objc_msgSend dyld_stub_binder /Users/vdawsys/Downloads/SetFileIcon/ set-icon.m
+/Users/vdawsys/Library/Developer/Xcode/DerivedData/SetFileIcon-eysynklchzulvccdspfjmqzeqlxn/Build/Intermediates.noindex/set-icon.build/Release/set-icon.build/Objects-normal/x86_64/set-icon.o
+ _printHelp _printHelp
