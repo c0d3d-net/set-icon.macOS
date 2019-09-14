@@ -1,9 +1,12 @@
 #!/bin/bash
 chmod +x
 
+
 os=${OSTYPE//[0-9.-]*/}
 case "$os" in
-  darwin)
+
+
+  darwin || linux)
     cd ~/Downloads/
 	  echo
 	  echo "Installing 'set-icon' to /usr/local/bin/"
@@ -23,6 +26,7 @@ case "$os" in
 
 
   msys)
+    # Makes `.cmd`/`.bat` file and runs it.
     cat > WINDOWS_set-icon.cmd <<EOF
       REM https://www.raymond.cc/blog/how-to-change-the-standard-folder-icon-to-another-icon/
       REM https://www.robvanderwoude.com/batchcommands.php
@@ -39,11 +43,9 @@ case "$os" in
   ;;
 
 
-  linux)
-    # Test
-    echo "I'm Linux"
-  ;;
-  *)
+  *) # All other operating systems
   echo "Unknown Operating system $OSTYPE"
+  
+  
   exit 1
 esac
