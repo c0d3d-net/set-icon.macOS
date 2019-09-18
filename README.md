@@ -1,17 +1,12 @@
-# set-icon.macOS
-set-icon lets you add or remove icons from files or folders.
+# set-icon_cross-platform
 
-## Installation
-- Download the install script: https://github.com/c0d3d-net/set-icon.macOS/raw/master/install.sh
-- Open a terminal
-- ./install.sh to install
+Add or remove icons from files or folders on any operating system.
 
-### Version Notes
-set-icon.macOS version 1.0 for macOS
-- requires macOS 10.12 or higher
+Fork this repository and modify `install.sh` to work with your projects!
 
 ### License Notes
-Modificated macOS edition for macOS 10.12 or higher
-- created on Feb 2019 by c0d3d.net
-Original "SetIconFile" for Mac OS x 10.4 or higher
-- created on July 2010 by Hank McShane
+Should be compatible with all operating systems (Windows version has to be 10 or above)
+- Created on July 2010 by Hank McShane
+- Implemented on Feb 2019 by c0d3d.net
+- Modified in 2019 by ForgivenNin
+- `needpix.png` has been labeled/licensed for commercial reuse & was made by `needpix.com`
