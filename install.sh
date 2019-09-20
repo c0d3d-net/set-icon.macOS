@@ -7,9 +7,8 @@ case "$os" in
   darwin) # Apple/Mac
     sudo cd ~/Downloads/
     # Assuming that when the user downloads the file, it will be here.
-    curl -LJO https://github.com/c0d3d-net/set-icon.macOS/raw/master/data.install
     unzip -o -C -qq ~/Downloads/data.install -d /usr/local/bin/
-    # Modify to where `data.install` is recognized along with this file
+    # Could have `data.install` installed unzipped
     chmod +x /usr/local/bin/set-icon
     rm ~/Downloads/data.install
     echo "Setup finished! Running commands!"
@@ -27,8 +26,6 @@ case "$os" in
     # Response
     echo "Uncompatible Operating system $OSTYPE"
   exit 1
-
 esac
 
-# rm dev/switch.cmd
-# rm install.sh
+rm install.sh
