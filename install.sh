@@ -5,12 +5,10 @@ os=${OSTYPE//[0-9.-]*/}
 case "$os" in
 
   darwin) # Apple/Mac
-    sudo cd ~/Downloads/
     # Assuming that when the user downloads the file, it will be here.
-    unzip -o -C -qq ~/Downloads/data.install -d /usr/local/bin/
-    # Could have `data.install` installed unzipped
+    unzip -o -C -qq ~/Downloads/set-icon_cross-platform-master/dev/data.install -d /usr/local/bin/
     chmod +x /usr/local/bin/set-icon
-    rm ~/Downloads/data.install
+    rm ~/Downloads/set-icon_cross-platform-master/dev/data.install
     echo "Setup finished! Running commands!"
     -image ~/set-icon_cross-platform-master/test/needpix.png
     -file ~/set-icon_cross-platform-master/test/index.html
