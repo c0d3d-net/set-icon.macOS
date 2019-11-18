@@ -1,0 +1,29 @@
+A list of all possible file paths & scripts to use for image replacement.
+ALL CODE INVOLVED IN REPOSITORY PROGRAM MUST BE DECLARED AS SAMPLE CODE BY THE OS COMPANY.
+
+
+
+MacOS
+-
+
+Macintosh HD/Library/Scripts/Folder Action Scripts/Image - Add Icon.scpt
+"This Folder Action handler is triggered whenever items are added to the attached folder.  The script will create
+an icon for each image file, based on the contents of the file."
+
+Macintosh HD/Library/Scripts/Folder Actions/Enable Folder Actions.scpt
+"This script will enable any attached Folder actions for a selected folder. "
+
+Macintosh HD/Library/Scripts/Folder Actions/Attach Script to Folder.scpt
+"This script attaches an AppleScript to a Folder. This script uses the object model of Folder Actions."
+
+
+
+
+Microsoft Windows
+-
+
+
+
+
+Linux
+-
