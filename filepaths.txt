@@ -3,7 +3,7 @@ ALL CODE INVOLVED IN REPOSITORY PROGRAM MUST BE DECLARED AS SAMPLE CODE BY THE O
 
 
 
-MacOS
+MacOS - Open using "Script Editor" application.
 -
 
 Macintosh HD/Library/Scripts/Folder Action Scripts/Image - Add Icon.scpt
